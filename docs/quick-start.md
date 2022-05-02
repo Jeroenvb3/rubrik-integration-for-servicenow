@@ -61,6 +61,7 @@ Select the MID Server which is most appropriate for connecting to the Rubrik clu
 8. Click on the **REQ** request ID, and confirm that the request is in **Closed Complete** state. If something went wrong with connecting to the Rubrik cluster, or using the provided credentials then this will be in a **Closed Incomplete** status
 
 9. Repeat this step with further requests for any additional Rubrik clusters to be managed through ServiceNow
+
 There are a set of  scheduled workflows configured as part of the Rubrik ServiceNow Management Pack, these are as follows:
 
 | **Name** | **Default Frequency** | **Description** |
